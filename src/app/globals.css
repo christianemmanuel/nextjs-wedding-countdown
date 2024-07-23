@@ -17,17 +17,25 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-white font-dm_serif bg-right bg-custom-image bg-cover bg-no-repeat flex h-[100vh] w-full items-center justify-center text-center;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  @apply text-[3.2rem] text-white leading-[5.5rem];
+}
+
+p {
+  @apply text-white text-5xl;
+}
+
+span {
+  @apply block text-[5rem];
+}
+
+.container {
+  @apply p-[1.5rem];
+}
+
+.container::after {
+  @apply absolute block content-[''] w-full h-full top-0 left-0 z-[-1] bg-custom-rgba;
 }
