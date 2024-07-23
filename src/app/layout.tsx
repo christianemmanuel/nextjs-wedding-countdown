@@ -7,7 +7,7 @@ const dmserif_display = DM_Serif_Display({
   display: "swap",
   variable: "--font-dm-serif-display",
   weight: ["400"],
-  style: ['normal']
+  style: ["normal"],
 });
 
 export const metadata: Metadata = {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { daysUntilTargetDate } from '../utils/dateUtils';
+import { daysUntilTargetDate } from "../utils/dateUtils";
 
 const targetDate = new Date(2024, 11, 4); // December 4, 2024
 
@@ -44,4 +44,3 @@ const Countdown = () => {
 };
 
 export default Countdown;
-

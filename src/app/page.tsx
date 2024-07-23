@@ -1,10 +1,8 @@
-import React from 'react'
-import Countdown from '@/components/Countdown'
+import React from "react";
+import Countdown from "@/components/Countdown";
 
 const page = () => {
-  return (
-    <Countdown />
-  )
-}
+  return <Countdown />;
+};
 
-export default page
+export default page;

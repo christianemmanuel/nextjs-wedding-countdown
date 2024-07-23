@@ -1,4 +1,4 @@
-import { daysUntilTargetDate } from '../src/utils/dateUtils';
+import { daysUntilTargetDate } from "../src/utils/dateUtils";
 
 const targetDate = new Date(2024, 11, 4); // December 4, 2024
 
