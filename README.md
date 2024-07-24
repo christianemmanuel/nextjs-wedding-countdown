@@ -19,6 +19,9 @@ This application is designed to count down the days until a specified date, in t
 First, run the development server:
 
 ```bash
+npm install
+
+```bash
 npm run dev
 # or
 yarn dev
